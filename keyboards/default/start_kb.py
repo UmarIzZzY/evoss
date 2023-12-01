@@ -6,4 +6,6 @@ start_keyboards = ReplyKeyboardMarkup(resize_keyboard=True, keyboard=[
     [KeyboardButton('✍️ Ariza qoldirish'), KeyboardButton('⚙️ Sozlamalar')]
 ])
 
-contact = ReplyKeyboardMarkup().add(KeyboardButton('Telefon raqam jonatish', request_contact=True))
+contact = ReplyKeyboardMarkup(resize_keyboard=True, keyboard=[
+    [KeyboardButton('📞 Telefon raqam yuborish', request_contact=True)]
+])

@@ -11,3 +11,12 @@ env.read_env()
 
 BOT_TOKEN = '6146304144:AAGRgRAe8Eghs2UALhM-W8ERr_E-ZsRpZBg'
 ADMINS = [364603275]
+
+DATABASE = {
+    'NAME': 'evos_bot',
+    'USER': 'postgres',
+    'PASSWORD': 'postgres',
+    'HOST': 'localhost',
+    'PORT': '5432',
+}
+
